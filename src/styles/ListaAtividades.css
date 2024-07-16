@@ -1,0 +1,56 @@
+.lista_container {
+  margin: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.atividades_list {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card_atividade {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.atividade_info {
+  flex-grow: 1;
+}
+
+.button_container {
+  display: flex;
+  gap: 5px;
+}
+
+.botao_excluir,
+.botao_editar {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.botao_excluir {
+  background-color: red;
+}
+
+.botao_editar {
+  background-color: blue;
+}
